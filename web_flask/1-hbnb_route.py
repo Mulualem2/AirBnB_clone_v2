@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""Starts Flask web app
+Routes:
+    / - display "Hello HBNB!"
+    /hbnb - display "HBNB"
+"""
+
 from flask import Flask
 app = Flask(__name__)
 
